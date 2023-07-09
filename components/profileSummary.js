@@ -29,7 +29,7 @@ export default function ProfileSummary({ children, home, hideProfile, handleView
                     <h1 className={`${utilStyles.heading2Xl} ${styles.itemHide}`}>{myName}</h1>
                     <h1 className={utilStyles.headingMd}>{myName}</h1>
                     <p className={`${utilStyles.headingMd} ${styles.itemHide}`}>Software Developer</p>
-                    <p className={`${utilStyles.headingSm} ${styles.itemHide}`}>davin.chung1@gmail.com</p>
+                    <p className={`${utilStyles.headingSm} ${styles.itemHide}`}>first.last1@gmail.com</p>
                     <p className={`${utilStyles.contentSm} ${styles.itemHide}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida convallis tellus, a elementum augue tempus sed. </p>
                 </div>
             </div>
