@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
-import Image from 'next/Image';
+import Image from 'next/image';
 import utilStyles from '../styles/utils.module.css';
 import ProfileSummary, { myName } from '../components/profileSummary';
 import Layout, { siteTitle } from '../components/layout';

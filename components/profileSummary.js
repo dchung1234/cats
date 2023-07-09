@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { useState } from 'react';
-import Image from 'next/Image';
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from './profileSummary.module.css';
 import utilStyles from '../styles/utils.module.css';

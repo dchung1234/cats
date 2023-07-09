@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/Image';
+import Image from 'next/image';
 import styles from './navMenu.module.css';
 import { Tooltip } from '@nextui-org/react';
 
