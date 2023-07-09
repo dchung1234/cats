@@ -25,12 +25,6 @@
     transition: height 0.5s linear;
 }
 
-.profile div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .profile #profileSummary {
     display: flex;
     flex-direction: column;
@@ -94,8 +88,10 @@
         overflow: hidden;
     }
 
-    .mobileProfile {
-        display: block;
+    .profile div.mobileProfile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     @keyframes minimize {
@@ -133,6 +129,7 @@
     }
 
     .hamburger {
+        display: block;
         position: absolute;
         right: 0px;
         top: 1.5rem;
