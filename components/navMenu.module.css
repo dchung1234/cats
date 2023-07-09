@@ -1,0 +1,17 @@
+.fullMenuContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    position: relative;
+    width: 13rem;
+}
+
+@media (max-width: 420px) {
+    .fullMenuContainer {
+        grid-template-columns: 13rem;
+
+    }
+}
